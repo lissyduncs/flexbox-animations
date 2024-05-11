@@ -1,0 +1,15 @@
+
+* {
+    --blue-light: #94cfde;
+    color: black;
+}
+    body{
+    background-color: var(--blue-light);
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    /* text aline is horizontal*/
+    text-align: center;
+    /* align items is vertical*/
+    align-items: center;
+}
